@@ -1,4 +1,4 @@
-print("COMPARADOR DE TRES NÚMEROS")
+#Comparador de tres numeros
 numero1 = float(input("Escriba un número: "))
 numero2 = float(input("Escriba otro número: "))
 numero3 = float(input("Escriba otro número más: "))
