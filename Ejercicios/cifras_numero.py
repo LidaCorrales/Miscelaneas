@@ -1,4 +1,4 @@
-numero = int(input("Ingresar numero: "))
+numero = int(input("Ingresar numero del 0 a 9.999: "))
 
 if(numero <0 or numero>9999):
     print("El numero que ingreso es invalido")
