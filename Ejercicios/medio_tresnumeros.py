@@ -1,3 +1,4 @@
+#Encontrar el medio de tres numeros
 A = int(input("Escribir el primer numero: "))
 B = int(input("Escribir el segundo numero: "))
 C = int(input("Escribir el tercer numero: "))
