@@ -1,12 +1,20 @@
-A = int(input("Ingrese coeficiente de la variable cuadratica"))
-B = int(input("Ingrese coeficiente de la variable lineal"))
-C = int(input("Ingrese termino independiente"))
-x1 = 0
-x2 = 0
+A = 0
+B = 0
+C = 0
+Z = 0
 
-if((B**2)- 4*A*C) < 0:
-    print("La solucion de la ecuacion es con numeros complejos")
-else:
-    x1 = ((B**2-(4*A*C))-B**0.5)/(2*A)
-    x2 = ((B**2-(4*A*C))-B**0.5)/(2*A)
-    print("Las soluciones de la ecuacion son: ", x1, x2)
+numero = input("¿Obtener valor de A?")
+if numero == "si":
+    A = int(input("Ingresar valor de A: "))
+numero = input("¿Obtener valor de B?: ")
+if numero == "Si":
+    B = int(input("Ingresar valor de B: "))
+numero = input("¿Obtener valor C?")
+if numero == "si":
+    C = int(input("Ingrese el valor de C: "))
+numero = input("¿Obtener el valor de X?")
+if numero == "Si":
+    X = int(input("Ingresar valor de X: "))
+
+Formula = (A*(X**2)) + (B*X) + C
+print("La funcion cuadratica es: ", Formula)
