@@ -8,7 +8,7 @@ elif D >=60 and D <=90:
     print("Mes de marzo")
 elif D >=91 and D <=120:
     print("Mes de abril")
-elif D >=121 and <=151:
+elif D >=121 and D <=151:
     print("Mes de mayo")
 elif D >=152 and D <=181:
     print("Mes de junio")
