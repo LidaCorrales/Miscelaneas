@@ -1,16 +1,20 @@
 from re import I
 
 
+i = 1
+contador = 0
+suma = 0
 numero = int(input("Ingrese el numero: "))
 
-i = 1
-total = 0
-while (i<numero):
-    if numero%1 == 0:
-        total += i
+while (numero > i):
+    if numero%i == 0:
+        contador = i
     i+= 1
 
-if total == 0:
-    print("Perfecto")
+for i in range(contador + 1):
+    suma+=1
+
+if numero == suma:
+    print(numero, "Es perfecto")
 else:
-    print("No es numero perfecto")
+    print(numero, "No es perfecto")
