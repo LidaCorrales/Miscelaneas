@@ -1,0 +1,11 @@
+num = int(input("Ingresar valor: "))
+num1=num+1
+
+if num > 0:
+    while num1 > 0:
+        for i in range (1, num1):
+            print(i, end=" ")
+        num1-=1
+        print()
+else:
+    print("El numero no es correcto")
