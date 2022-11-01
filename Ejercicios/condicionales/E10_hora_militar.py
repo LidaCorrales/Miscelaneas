@@ -1,3 +1,4 @@
+#Solicite al usuario la hora en formato hh:mm:ss (hora militar, 24 horas). El programa debe responder que hora será un segundo después.
 horas = int(input("Ingresar horas en formato militar: "))
 minutos = int(input("Ingresar minutos en formato militar: "))
 segundos = int(input("Ingresar segundos en formato militar: "))

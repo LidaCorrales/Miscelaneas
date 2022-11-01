@@ -1,3 +1,4 @@
+#Realizar un programa que determine esta fecha para un año ingresado por teclado.
 año = int(input("Ingrese el año: "))
 
 A = año % 19

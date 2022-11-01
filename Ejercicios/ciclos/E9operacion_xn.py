@@ -1,3 +1,4 @@
+#Calcular la operación x n sin utilizar la función pow
 x = int(input("Ponga la base: "))
 y = int(input("Ponga el exponente: "))
 i = 1

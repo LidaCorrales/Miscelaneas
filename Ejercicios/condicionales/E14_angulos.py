@@ -1,3 +1,5 @@
+#Diga en que cuadrante está. Diga además en que vuelta está sabiendo que cada 360 grados se completa una
+#vuelta a la circunferencia. Además diga el resultado en radianes.
 angulo = int(input("Ingresar angulo en grados: "))
 radianes = 3.1416 * angulo / 180
 vuelta = 0

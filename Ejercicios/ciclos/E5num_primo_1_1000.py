@@ -1,3 +1,4 @@
+#¿Cuáles y cuántos son los números primos comprendidos entre 1 y 1000?
 for n in range(2,1000):
     i=1
     c = 0

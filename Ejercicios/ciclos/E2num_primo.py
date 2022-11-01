@@ -1,3 +1,4 @@
+#Determinar si un numero es o no es primo
 num = int(input("Introduzca un numero: "))
 i = 1
 c = 0

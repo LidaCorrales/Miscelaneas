@@ -1,3 +1,4 @@
+#Determinar los divisores de un número introducido por teclado
 numero = int(input("Escribir el numero: "))
 contador = 1
 

@@ -1,3 +1,4 @@
+#Encontrar un número natural n más pequeño tal que la suma de los n primeros números naturales
 dato_max = int(input("Introducir dato maximo: "))
 numero = 0
 contador = 0

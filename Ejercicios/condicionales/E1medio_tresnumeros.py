@@ -1,6 +1,6 @@
-#Encontrar el medio de tres numeros
+#Pedir 3 numeros e indicar cual de ellos es el valor del medio.
 A = int(input("Escribir el primer numero: "))
-B = int(input("Escribir el segundo numero: "))
+B = int(input("Escribir el segundo numero: ")) #se piden los tres numeros por teclado
 C = int(input("Escribir el tercer numero: "))
 
 if A <= B <= C or C <= B <= A:

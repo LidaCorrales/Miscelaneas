@@ -1,3 +1,4 @@
+#Pedir un número entre 0 y 9.999 y decir cuantas cifras tiene.
 numero = int(input("Ingresar numero del 0 a 9.999: "))
 
 if(numero <0 or numero>9999):

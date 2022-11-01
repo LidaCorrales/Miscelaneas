@@ -1,6 +1,7 @@
 from re import I
 
 
+#Determinar si un número es o no es perfecto.
 i = 1
 contador = 0
 suma = 0

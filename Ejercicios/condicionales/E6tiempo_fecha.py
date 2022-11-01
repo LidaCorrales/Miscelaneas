@@ -1,3 +1,4 @@
+#Pida un numero al usuario que representa días del año.
 D = int(input("Registre el dia del año: "))
 
 if D>0 and D <=31:

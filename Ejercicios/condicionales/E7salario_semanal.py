@@ -1,3 +1,4 @@
+#Un obrero necesita calcular su salario semanal.
 hora = int(input("Digite la cantidad de horas: "))
 
 h2 = hora - 40

@@ -1,3 +1,4 @@
+#Determinar cuales son los múltiplos de 5 comprendidos entre 1 y N.
 numero = int(input("Introducir el numero: "))
 i=0
 

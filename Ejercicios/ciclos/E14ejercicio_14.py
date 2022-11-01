@@ -1,3 +1,4 @@
+#Calcular todos los números de 3 cifras tales que la suma de los cubos de las cifras es igual al valor del número.
 valor = 0
 for n in range (100,1000):
     valor = n
