@@ -1,4 +1,4 @@
-##Calcular la operación x n
+##Calcular la operación x n - ciclos
 x = 0
 y = 0
 def operacion(x, y):

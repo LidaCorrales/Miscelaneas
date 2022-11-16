@@ -1,4 +1,4 @@
-##Determinar cuales son los múltiplos de 5
+##Determinar cuales son los múltiplos de 5 - Ciclos
 def multiplo(numero, multiplo):
     return numero % multiplo == 0
 

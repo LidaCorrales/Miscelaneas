@@ -1,4 +1,5 @@
-#Calcular el máximo de números positivos introducidos por teclado,el programa termina cuando se pone un numero negativo
+#Calcular el máximo de números positivos introducidos por teclado,el programa termina cuando se pone un 
+#numero negativo
 numero = 0
 c = 0
 

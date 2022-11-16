@@ -1,3 +1,4 @@
+#Pedir una nota de 0 a 10 y mostrarla de la forma: Insuficiente, Suficiente, Bien, etc.- Condicionales
 def calificacion(notas):
 
     if (notas >= 0 and notas <5):

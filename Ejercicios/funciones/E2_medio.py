@@ -1,3 +1,4 @@
+#Pedir 3 numeros e indicar cual de ellos es el valor del medio. - Condicionales
 def medio_tresnumeros(A,B,C):
     if A <= B <= C or C <= B <= A:
         print("El numero del medio es: ", B)

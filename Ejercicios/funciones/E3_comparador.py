@@ -1,4 +1,4 @@
-##Comparador de tres numeros
+##Comparador de tres numeros - condicionales
 def comparador(numero1, numero2, numero3):
 
     if numero1 == numero2 == numero3:        
