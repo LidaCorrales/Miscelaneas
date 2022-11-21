@@ -1,11 +1,11 @@
-"""Hinojosa Gutiérrez, A. P. (2016). Python: paso a paso. Ediciones de la U..
- https://www-ebooks7-24-com.bdigital.sena.edu.co/?il=7959
- Pagina digital 78"""
+"""Gaddis, T. (2015). Starting out with Python. 
+Pearson Educación. https://www-ebooks7-24-com.bdigital.sena.edu.co/?il=7498
+Pagina digital: 322 - 323"""
 
-lista = ["primero", "segundo", "tercero", "cuarto", "quinto", "sexto"]
-lista2 = lista[1:4]
-print (lista2)
-# Mostrará "['segundo', 'tercero', 'cuarto']"
-lista2[0:2] = ["otro", "Y otro"]
-print (lista2)
-# Mostrará "['otro', 'Y otro', 'cuarto']"
+# This program demonstrates the in operator used with a lisst
+prod_nums = ['V475', 'F987', 'Q143', 'R688']
+search = input('Enter a product number: ')             
+if search in prod_nums:
+    print(search, 'was found in the list.')    
+else:      
+    print(search, 'was not found in the list.')
