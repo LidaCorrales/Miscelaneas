@@ -9,7 +9,7 @@ def numerico (cod):
     suma2 = 0
     for i in suma:
         suma2+=i
-    print("La suma de los codigos es: ", suma2)
+    print("La suma de los codigos es:", suma2)
 
 cod = input("Ingrese un valor: ")
 numerico(cod)
