@@ -1,17 +1,10 @@
-#ImportError importa un modulo q no existe 
+#ValueError
 
-lista2=[2,3,4,5,6,78,9]
-def PromedioLista(lista2):
-        try:
-            cantidad_elementos = len(lista2)
-            suma2 = 0
-            for valor in lista2:
-            suma2 = suma2 + valor
-                promedio = suma2 / cantidad_elementos
-            return promedio
-        except IndentationError:
-             print("coloca bien la identacion")
-        except:
-             print("otro error")
+def error():
+    try:
+        a = 10
+        a.append(6)
+    except AttributeError:
+        print("Es un error de atributo")
 
-print(PromedioLista(lista2))
+error()
