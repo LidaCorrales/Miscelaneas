@@ -7,4 +7,10 @@ def multiplos():
             print(num * i)
     except ValueError:
         print("Debe ingresar un número entero. Intente nuevamente.")
+        multiplos()
+    else:
+        print(f'el numero es:{num}')
+    finally:
+        print("Se termino")
+
 multiplos()
