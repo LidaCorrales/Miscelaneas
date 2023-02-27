@@ -1,6 +1,6 @@
 class Persona:                              #Se genera un nuevo tipo de dato llamado "Persona", que se crea en una clase
     def __init__(self,nombre,doc):          #Se crea un metodo dentro de la clase, llamado constructor. La cual tiene de parametro self para indicar que se encuentra en la funcion y el segundo parametro nombre.
-        self.__nombre=nombre                    #Se inicializa con el self al atributo llamado nombre que se le puso al contenido, en este caso llamado nombre.
+        self.__nombre=nombre                #Se inicializa con el self al atributo llamado nombre que se le puso al contenido, en este caso llamado nombre.
         self.__doc=doc
         #print('Constructor Activado')        
 
