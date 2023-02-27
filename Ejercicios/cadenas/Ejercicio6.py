@@ -1,10 +1,16 @@
 #Determinar en que tiempo esta conjugado un verbo
 
 def verbo():
-    if letra1.endswith('ar','er','ir'):
+    if letra1.endswith('ar'):
         print("Esta conjugado en presente xd")
+    elif letra1.endswith('er'):
+        print("Esta conjugado en presente")
+    elif letra1.endswith('ir'):
+        print("Esta conjugado en presente")
     elif letra1.endswith('re'):
         print("Esta conjugado en futuro xd")
+    else:
+        print("No se encuentra caracteristica del verbo")
 
 letra1 = input("Escribir un verbo: ")
 verbo()
