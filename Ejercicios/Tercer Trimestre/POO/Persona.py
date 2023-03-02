@@ -1,6 +1,6 @@
 class Persona:                              #Se genera un nuevo tipo de dato llamado "Persona", que se crea en una clase
     def __init__(self,nombre,doc):          #Se crea un metodo dentro de la clase, llamado constructor. La cual tiene de parametro self para indicar que se encuentra en la funcion y el segundo parametro nombre.
-        self.__nombre=nombre                    #Se inicializa con el self al atributo llamado nombre que se le puso al contenido, en este caso llamado nombre.
+        self.__nombre=nombre                #Se inicializa con el self al atributo llamado nombre que se le puso al parametro, llamado nombre.
         self.__doc=doc
         #print('Constructor Activado')        
 
@@ -16,12 +16,12 @@ class Persona:                              #Se genera un nuevo tipo de dato lla
     def setDoc(self,doc):
         self.__doc=doc
 
-ob=Persona('Maria', 18734)
-print(ob.getNombre())
-ob.setNombre('Ana')
-print(ob.getNombre())
-ob.setDoc(76543)
-print(ob.getDoc())
+ob=Persona('Maria', 18734)                  #Se crea un objeto para asignarle variables de instancia.
+print(ob.getNombre())                       #Se imprime el objeto con el metodo del getter de nombre.
+ob.setNombre('Ana')                         #se llama al objeto con el metodo de set nombre y se le asigna un valor de cadena.
+print(ob.getNombre())                       #Se imprime el getter de nombre con el valor asignado
+ob.setDoc(76543)                            #Se llama al objeto con el metodo de get documento con una variable de int
+print(ob.getDoc())                          #Se imprime el getter de documento con el valor asignado.
 #print(type(ob))
 
 class Aprendiz(Persona):
