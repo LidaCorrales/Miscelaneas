@@ -1,5 +1,3 @@
-from datetime import datetime
-
 class Pedido:
     def __init__(self,identi,titulo,codigo):
         self.__identi=identi
@@ -21,14 +19,6 @@ class Pedido:
     def setCodigo(self, codigo):
         self.__codigo=codigo
 
-    def Reservar(self,identi,fecha):
-        self.fecha=fecha
-        fecha=Lector(identi)
-        self.fecha.datetime.now(fecha)
-    def Entregar(self):
-        fecha_ingreso=self.datetime.now(fecha_ingreso)
-        return fecha_ingreso
-
     def Bibliotecario(self,identi):
         self.__identi=identi
 
@@ -36,8 +26,8 @@ class Lector:
     def __init__(self,identi,nombre,direccion,telefono):
         self.__identi=identi
         self.__nombre=nombre
-        self.__direccion=direccion
-        self.__telefono=telefono
+        self.direccion=direccion
+        self.telefono=telefono
 
     def getIdenti(self):
         return self.__identi
@@ -52,12 +42,12 @@ class Lector:
     def getDireccion(self):
         return self.__identi
     def setDireccion(self, direccion):
-        self.__direccion=direccion
+        self.direccion=direccion
 
     def getTelefono(self):
-        return self.__telefono
+        return self.telefono
     def setTelefono(self, telefono):
-        self.__telefono=telefono
+        self.telefono=telefono
 
     def Estudiante(self,identi):
         self.__identi=identi
@@ -66,7 +56,10 @@ class Lector:
     def Docente(self,identi):
         self.__identi=identi
 
-class Material(Pedido):
+    def getAll(self):
+        print (self.__nombre, self.direccion, self.telefono, sep=(', '))
+
+class Material:
     def __init__(self,titulo,tipo,autor,editorial):
         self.__titulo=titulo
         self.__tipo=tipo
@@ -93,6 +86,9 @@ class Material(Pedido):
     def setEditorial(self, editorial):
         self.__editorial=editorial
 
+    def getAll(self):
+        print(self.__titulo_material, self.tipo_material, self.__autor, sep=(', '))
+
     def Libro(self):
         return self.Libro
     
@@ -103,6 +99,8 @@ class Material(Pedido):
     ob.setIdenti(12345)
     ob.setTitulo("Nombre Libro")
     ob.setCodigo(12213)
+    #Material.getAll()
+    #Lector.getAll()
     print(ob.getTitulo())
     print(ob.getIdenti())
     print(ob.getCodigo())
