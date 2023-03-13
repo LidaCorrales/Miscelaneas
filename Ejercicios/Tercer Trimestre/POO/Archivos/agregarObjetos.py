@@ -12,7 +12,7 @@ horas=int(input('ingrese intensidad horaria del curso'))        #Se crea otra va
 c1=Curso(nombreCurso,horas)                                     #Se crea un objeto para curso el cual va a tener como atributos los 2 input crados previamente.
 ap.agregarCurso(c1)                                             #Se indica que en la clase aprendiz, se va a agregar el curso anteriormente mencionado.
 
-with open('herencia/aprendices.txt','a') as flujo:              
+with open('Archivos/aprendices.txt','a') as flujo:              
     flujo.write(ap.getFicha()+','+ap.getNombre()+','+str(ap.getDocumento())+'\n')
 
 #Se crea un with open para crear un flujo en el archivo puesto en la ruta. Se crea el metodo para escribir en el archivo

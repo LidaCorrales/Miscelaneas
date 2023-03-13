@@ -15,7 +15,7 @@ from Curso import *                                         #Se importa la clase
 # with open('herencia/aprendices.txt','a') as flujo:    
 #     flujo.write(ap.getFicha()+','+ap.getNombre()+','+str(ap.getDocumento())+'\n')
 
-with open('herencia/aprendices.txt','r') as flujo:          #Se agrega el with open as flujo para escribir en el archivo contenido por la ruta, ademas de la accion escrita 'r'.
+with open('Archivos/aprendices.txt','r') as flujo:          #Se agrega el with open as flujo para escribir en el archivo contenido por la ruta, ademas de la accion escrita 'r'.
     datos=flujo.read()                                      #Se crea un variable para que lea lo que se encuentra en el archivo.
     print(datos)                                            #Se imprimen para mostrar los datos que contiene el archivo de la ruta.
     #flujo.write('2560664,maria,123')
