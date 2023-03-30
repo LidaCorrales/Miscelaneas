@@ -9,15 +9,12 @@ print('Today  :', datetime.datetime.today())
 print('UTC Now:', datetime.datetime.utcnow())
 print()
 
-FIELDS = [
+datos = [
     'year', 'month', 'day',
     'hour', 'minute', 'second',
     'microsecond',
 ]
 
 d = datetime.datetime.now()
-for attr in FIELDS:
-    print('{:15}: {}'.format(attr, getattr(d, attr)))
-
-
-#La instancia datetime tiene todos los atributos de un objeto date y un objeto time.
+for a in datos:
+    print('{:15}: {}'.format(a, getattr(d, a)))
